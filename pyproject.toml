@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "ai-agent-requirements"
+version = "0.1.0"
+description = "Some simple huggingface packages to use free ai models"
+authors = ["AbhiPat123 <abhipat1996@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+transformers = {extras = ["torch"], version = "^4.43.1"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
