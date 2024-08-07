@@ -8,6 +8,10 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.11"
 transformers = {extras = ["torch"], version = "^4.43.1"}
+streamlit = "^1.37.1"
+pypdf = "^4.3.1"
+pydantic = "^2.8.2"
+streamlit-pdf-viewer = "^0.0.16"
 
 
 [build-system]
